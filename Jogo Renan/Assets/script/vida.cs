@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class vida : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int healthValue;
+    
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<jogador>().IncreaseLife(healthValue);
+            Destroy(gameObject, 0.2f);
+        }
     }
 }
