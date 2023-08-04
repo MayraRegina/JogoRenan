@@ -10,7 +10,7 @@ public class moeda : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            GameController.instance.UpdateScore(scoreValue);
+            gamecontroller.instance.UpdateScore(scoreValue);
             Destroy(gameObject, 0.2f);
         }
     }

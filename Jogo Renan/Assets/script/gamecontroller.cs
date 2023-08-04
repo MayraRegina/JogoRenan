@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class gamecontroller : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class gamecontroller : MonoBehaviour
 
     private bool isPaused;
 
-    public static GameController instance;
+    public static gamecontroller instance;
     
     // Start is called before the first frame update
     void Awake()
@@ -26,7 +28,7 @@ public class gamecontroller : MonoBehaviour
 
     void Start()
     {
-       totalScore = PlayerPrefs.GetInt("score"); 
+        totalScore = PlayerPrefs.GetInt("score"); 
     }
 
     // Update is called once per frame

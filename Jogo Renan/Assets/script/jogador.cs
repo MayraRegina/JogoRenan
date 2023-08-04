@@ -4,33 +4,42 @@ using UnityEngine;
 
 public class jogador : MonoBehaviour
 {
-
+    public int health = 3;
     public float speed;
     public float jumpForce;
+    
     
     private bool isJumping;
     private bool doubleJump;
 
     private Rigidbody2D rig;
     private Animator anim;
+
+    private float movement;
     
     // Start is called before the first frame update
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        
+        gamecontroller.instance.UpdateLives(health);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
         Jump();
+    }
+
+    void FixedUpdate()
+    {
+        Move();
     }
 
     void Move()
     {
-        float movement = Input.GetAxis("Horizontal");
+        movement = Input.GetAxis("Horizontal");
 
         rig.velocity = new Vector2(movement * speed, rig.velocity.y);
 
@@ -52,6 +61,11 @@ public class jogador : MonoBehaviour
             }
             
             transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        
+        if (movement == 0 && !isJumping)
+        {
+            anim.SetInteger("transicao", 0);
         }
         
     }
@@ -78,12 +92,19 @@ public class jogador : MonoBehaviour
             }
         }
     }
-    
-    void OnCollisionEnter2D(Collision2D coll)
+
+    public void IncreaseLife(int value)
     {
-        if (coll.gameObject.layer == 6)
+        health += value;
+        gamecontroller.instance.UpdateLives(health);
+    }
+    
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.layer == 6)
         {
             isJumping = false;
         }
+
     }
 }
