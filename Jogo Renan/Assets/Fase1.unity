@@ -404,6 +404,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (4)
@@ -461,6 +465,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (5)
@@ -580,6 +588,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (8)
@@ -687,6 +699,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda
@@ -744,6 +760,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (2)
@@ -1298,6 +1318,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (1)
@@ -1355,6 +1379,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (7)
@@ -1515,6 +1543,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (6)
@@ -1672,6 +1704,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7888343804305999639, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd77cd803ba35ae4f84ea0ea31d0947a, type: 3}
     - target: {fileID: 7888343804305999641, guid: 9b2b09d1d31f20a4ca3241a50c1b1ee3, type: 3}
       propertyPath: m_Name
       value: Moeda (3)
