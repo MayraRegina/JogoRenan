@@ -8559,7 +8559,7 @@ MonoBehaviour:
   scoreText: {fileID: 1894999336}
   pauseObj: {fileID: 0}
   gameOverObj: {fileID: 0}
-  fase1Obj: {fileID: 0}
+  fase1Obj: {fileID: 1266518616}
   fase2Obj: {fileID: 457427565}
   totalScore: 0
 --- !u!4 &822738985
@@ -9454,6 +9454,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261928827}
   m_CullTransparentMesh: 1
+--- !u!1 &1266518616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1266518618}
+  - component: {fileID: 1266518617}
+  m_Layer: 0
+  m_Name: fase1
+  m_TagString: fase1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!58 &1266518617
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266518616}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!4 &1266518618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266518616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.52, y: 7.63, z: -0.31093198}
+  m_LocalScale: {x: 7.332092, y: 7.332092, z: 7.332092}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1271857015
 GameObject:
   m_ObjectHideFlags: 0
