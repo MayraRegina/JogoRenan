@@ -119,6 +119,10 @@ public class jogador : MonoBehaviour
         {
             SceneManager.LoadScene(3);
         }
+        if (col.gameObject.tag == "fase3" )
+        {
+            SceneManager.LoadScene(4);
+        }
     }
 
 }

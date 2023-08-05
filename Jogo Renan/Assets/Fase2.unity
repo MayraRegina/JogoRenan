@@ -8557,7 +8557,7 @@ MonoBehaviour:
   healthText: {fileID: 2103942124}
   score: 0
   scoreText: {fileID: 1894999336}
-  pauseObj: {fileID: 0}
+  pauseObj: {fileID: 1987338915}
   gameOverObj: {fileID: 0}
   fase1Obj: {fileID: 1266518616}
   fase2Obj: {fileID: 457427565}

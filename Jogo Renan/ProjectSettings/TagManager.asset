@@ -7,6 +7,7 @@ TagManager:
   - passar de fase
   - fase1
   - fase2
+  - fase3
   layers:
   - Default
   - TransparentFX

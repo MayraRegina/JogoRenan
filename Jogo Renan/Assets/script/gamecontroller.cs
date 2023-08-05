@@ -15,6 +15,7 @@ public class gamecontroller : MonoBehaviour
     public GameObject gameOverObj;
     public GameObject fase1Obj;
     public GameObject fase2Obj;
+    public GameObject fase3Obj;
 
     public int totalScore;
 
@@ -39,6 +40,7 @@ public class gamecontroller : MonoBehaviour
         PauseGame();
         passarfase1();
         passarfase2();
+        passarfase3();
     }
 
     public void UpdateScore(int value)
@@ -97,6 +99,14 @@ public class gamecontroller : MonoBehaviour
         if (score >= 9)
         {
             fase2Obj.gameObject.SetActive(true);
+        }
+            
+    }
+    void passarfase3()
+    {
+        if (score >= 9)
+        {
+            fase3Obj.gameObject.SetActive(true);
         }
             
     }
