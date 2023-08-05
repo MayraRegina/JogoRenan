@@ -13,6 +13,8 @@ public class gamecontroller : MonoBehaviour
 
     public GameObject pauseObj;
     public GameObject gameOverObj;
+    public GameObject fase1Obj;
+    public GameObject fase2Obj;
 
     public int totalScore;
 
@@ -77,6 +79,24 @@ public class gamecontroller : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(1);
+    }
+
+    void passarfase1()
+    {
+        if (score == 9)
+        {
+            fase1Obj.gameObject.SetActive(true);
+        }
+            
+    }
+    
+    void passarfase2()
+    {
+        if (score == 9)
+        {
+            fase2Obj.gameObject.SetActive(true);
+        }
+            
     }
 }
 

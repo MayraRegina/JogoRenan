@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - passar de fase
+  - fase1
+  - fase2
   layers:
   - Default
   - TransparentFX

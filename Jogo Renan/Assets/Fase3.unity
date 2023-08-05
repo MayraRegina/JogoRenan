@@ -2032,7 +2032,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_FontSize: 89
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
@@ -2650,6 +2650,8 @@ MonoBehaviour:
   scoreText: {fileID: 1927651542}
   pauseObj: {fileID: 0}
   gameOverObj: {fileID: 0}
+  fase1Obj: {fileID: 0}
+  fase2Obj: {fileID: 0}
   totalScore: 0
 --- !u!4 &1866902850
 Transform:
@@ -2706,10 +2708,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_FontSize: 89
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 142
     m_Alignment: 3
     m_AlignByGeometry: 0
